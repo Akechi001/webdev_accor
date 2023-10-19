@@ -1,16 +1,18 @@
-.App {
-  text-align: center;
+.name{
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonPict{
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ProfilePic img{
+  width: 50%;
 }
 
 .App-header {
@@ -18,21 +20,84 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ProfilePic{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 40%;
+}
+.name{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+}
+.name p{
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Left-Text{
+  width: 40%;
+}
+
+.Left-Text p{
+  padding-left: 10%;
+}
+
+.Right-Text{
+  width: 60%;
+}
+
+.Right-Text p{
+  padding-left: 10%;
+}
+
+.Text{
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.Header{
+  display: flex;
+  flex-direction: row;
+}
+
+.Riwayat{
+  margin-top: 40px;
+  padding-left: 10%;
+  border-top: solid;
+}
+
+.circle img{
+  border-radius: 50%;
+}
+
+.buttonPict button {
+  border-radius: 8px;
+  background-color: aquamarine;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.panel {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 250%;
+  transition: 0.4s;
+}
+
+.panel p {
+  background-color: white;
+  text-align: center;
 }
